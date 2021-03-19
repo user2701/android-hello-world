@@ -13,6 +13,6 @@ workflows:
              email:
                recipients:
                   - thakkarprit6@gmail.com
-    notify:
-      success: false     # To not receive a notification when a build succeeds
-      failure: false     # To not receive a notification when a build fails
+               notify:
+                   success: false     # To not receive a notification when a build succeeds
+                   failure: false     # To not receive a notification when a build fails
