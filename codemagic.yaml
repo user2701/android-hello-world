@@ -9,3 +9,10 @@ workflows:
             - ./gradlew assembleDebug
         artifacts:
             - app/build/outputs/**/*.apk
+        publishing:
+             email:
+               recipients:
+                  - thakkarprit6@gmail.com
+    notify:
+      success: true     # To not receive a notification when a build succeeds
+      failure: false     # To not receive a notification when a build fails
