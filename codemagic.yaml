@@ -1,7 +1,7 @@
 # Check out https://docs.codemagic.io/getting-started/building-a-native-android-app/ for more information
 
 workflows:
-    android-app:
+    androidAppWorkflow:
         name: Android App
         scripts:
             - echo "Hello World"
